@@ -1,0 +1,133 @@
+/* Google Font: Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+header, footer {
+  background-color: #002b5c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#integrantes {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.membro {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 12px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.membro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.membro img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.membro h3 {
+  margin: 10px 0 5px;
+  font-size: 18px;
+}
+
+.membro a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.membro a:hover {
+  text-decoration: underline;
+}
+
+#tarefas {
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #e8eff5;
+}
+
+#sobre {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer a {
+  color: #aaddff;
+  text-decoration: underline;
+}
+/*Ícones*/
+.membro a i {
+  margin-right: 8px; /* Espaçamento entre o ícone e o texto */
+  font-size: 18px; /* Tamanho do ícone */
+}
+
+.membro a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.membro a:hover {
+  text-decoration: underline;
+  color: #005bb5; /* Mudança de cor quando passar o mouse */
+}
+
+.membro a i {
+  transition: color 0.3s ease;
+}
+
+.membro a:hover i {
+  color: #ff6600; /* Cor do ícone ao passar o mouse */
+}
